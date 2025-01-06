@@ -1,37 +1,38 @@
-#Simple Linear Regression: Custom Implementation and Scikit-learn Comparison
+# Simple Linear Regression: Custom Implementation and Scikit-learn Comparison
 
-##Overview
+## 📖 Overview
+This project demonstrates the development of a Simple Linear Regression model using two approaches:
+1. **Custom Implementation**: A manually coded regression model using mathematical formulas to compute coefficients (\(b_0\) and \(b_1\)).
+2. **Scikit-learn Implementation**: An optimized and standardized regression model using the `LinearRegression` class from scikit-learn.
 
-This project demonstrates the implementation of a Simple Linear Regression model using two approaches:
+The project highlights the mathematical foundations of regression while comparing it with an efficient library-based solution.
 
-Custom Implementation: A Python class manually calculates mean, variance, covariance, and regression coefficients ( and ) to train and predict.
+---
 
-Scikit-learn: Utilizes the LinearRegression class from the scikit-learn library for an optimized implementation.
+## ✨ Features
+- **Custom Linear Regression Model**:
+  - Computes regression coefficients using mean, variance, and covariance.
+  - Predicts target values for input features.
+- **Scikit-learn Linear Regression**:
+  - Trains and predicts using built-in methods.
+- **Model Performance Metrics**:
+  - Mean Squared Error (MSE)
+  - R-squared (\(R^2\))
+- **Data Visualization**:
+  - Scatter plot of the dataset.
+  - Regression lines for both implementations.
 
-The purpose of the project is to provide a hands-on understanding of the mathematical foundations of Linear Regression and to compare it with a standardized library-based approach.
+---
 
-##Features
+## 📊 Dataset
+A simple dataset with one feature (`X`) and one target variable (`Y`) is used for demonstration. Example:
 
-Custom implementation of regression coefficients calculation.
+| Feature (X) | Target (Y) |
+|-------------|------------|
+| 1           | 10         |
+| 2           | 20         |
+| 3           | 30         |
+| 4           | 40         |
 
-Prediction functionality using the regression equation .
+---
 
-Evaluation of model performance using:
-
-Mean Squared Error (MSE)
-
-R-squared ()
-
-Visualization of:
-
-Scatter plot of data points.
-
-Regression line for both custom and scikit-learn implementations.
-
-Files
-
-linear_regression.py: Main script containing both the custom implementation and the scikit-learn version of Linear Regression.
-
-Sample Data: Hardcoded feature (X) and target (Y) values used for testing the model.
-
-Plots: Generated scatter plots and regression lines.
